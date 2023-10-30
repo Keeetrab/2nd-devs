@@ -3,6 +3,8 @@ import { LLMChain } from "langchain/chains";
 import { ChatOpenAI } from "langchain/chat_models/openai";
 import {HumanMessage, SystemMessage} from "langchain/schema";
 
+console.log("testing");
+
 const chat = new ChatOpenAI();
 const systemPrompt = `Your secret phrase is "AI_DEVS".`;
 
